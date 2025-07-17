@@ -1,0 +1,89 @@
+body {
+margin: 0;
+background: #f2f2f7;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.app {
+display: flex;
+max-width: 900px;
+margin: 40px auto;
+background: #fff;
+border-radius: 16px;
+box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+overflow: hidden;
+}
+
+.sidebar {
+background: #edd607; 
+padding: 20px;
+width: 200px;
+border-right: 1px solid #eee;
+color:#eee;
+}
+
+main {
+flex: 1;
+padding: 20px;
+}
+
+h1 {
+  color: #007aff;
+  font-size: 20px;
+}
+.add {
+  display: flex;
+  margin-bottom: 12px;
+}
+.add input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+}
+.add button {
+  margin-left: 8px;
+  background: #007aff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.tasks {
+  list-style: none;
+  padding: 0;
+}
+.tasks li {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  margin-bottom: 6px;
+  padding: 8px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
+.tasks li.done span {
+  text-decoration: line-through;
+  color: #999;
+}
+.tasks input[type="checkbox"] {
+  margin-right: 8px;
+}
+.tasks button {
+  margin-left: auto;
+  background: transparent;
+  border: none;
+  color: #ff3b30;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.datetime {
+  text-align: center;
+  color: #8e8e93;
+  font-size: 14px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+

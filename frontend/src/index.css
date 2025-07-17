@@ -1,0 +1,4 @@
+/* Optional: reset margins/paddings */
+* {
+  box-sizing: border-box;
+}
